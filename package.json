@@ -1,0 +1,40 @@
+{
+  "name": "salak-curl",
+  "version": "0.0.1",
+  "description": "curl for salak 2.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint && jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salakjs/salak-curl.git"
+  },
+  "keywords": [
+    "salak",
+    "request",
+    "curl",
+    "salak plugin"
+  ],
+  "author": "wengeek <wenwei897684475@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/salakjs/salak-curl/issues"
+  },
+  "homepage": "https://github.com/salakjs/salak-curl#readme",
+  "dependencies": {
+    "superagent": "^3.8.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.13.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "jest": "^23.4.1",
+    "salak": "^2.0.0-beta.4",
+    "supertest": "^3.1.0"
+  }
+}
