@@ -56,6 +56,8 @@ module.exports = {
 curl (url, options)
 
 - options {Object} the same as above properties except `plugins`. if unset, would use the default properties which provided at above.
+- options.stream {Stream} response stream, if set, will run `req.pipe(stream)`
+- options.reqStrem {Stream} request stream, if set, will run `reqStream.pipe(req)`
 - @return Promise
 
 ### Use in Service or Controller
