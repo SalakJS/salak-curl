@@ -1,6 +1,6 @@
 {
   "name": "salak-curl",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "curl for salak 2.0",
   "main": "index.js",
   "scripts": {
